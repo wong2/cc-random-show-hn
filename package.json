@@ -1,0 +1,20 @@
+{
+  "name": "cc-random-show-hn",
+  "type": "module",
+  "version": "0.1.0",
+  "description": "Display a random Show HN story in your terminal",
+  "bin": {
+    "cc-random-show-hn": "./dist/index.mjs"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsdown",
+    "dev": "tsdown --watch"
+  },
+  "devDependencies": {
+    "tsdown": "^0.18.1",
+    "typescript": "^5.9.3"
+  }
+}
